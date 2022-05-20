@@ -1,0 +1,37 @@
+.feature-card {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -2rem;
+  padding: 2rem 0;
+}
+
+.feature-card li {
+  display: inline-flex;
+  flex: 1;
+  flex-flow: column;
+  margin: 2rem;
+  padding: 3rem 2rem;
+  min-width: 180px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 5px 14px -5px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: 400ms;
+}
+
+.feature-card li:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 5px 14px -5px rgba(0, 0, 0, 0.75);
+  transform: translateY(-1rem);
+}
+
+.feature-card__icon {
+  color: cadetblue;
+  font-size: 6.5rem;
+}
+
+.feature-card__title {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

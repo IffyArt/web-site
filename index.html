@@ -2,19 +2,323 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- Layout -->
+    <link rel="stylesheet" href="assets/css/body.css" />
+    <link rel="stylesheet" href="assets/css/flex-layout.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/article.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <!-- Button -->
+    <link rel="stylesheet" href="assets/css/btn-link.css" />
+    <link rel="stylesheet" href="assets/css/btn-radius.css" />
+    <!-- Component -->
+    <link rel="stylesheet" href="assets/css/icon-grid.css" />
+    <link rel="stylesheet" href="assets/css/person-card.css" />
+    <link rel="stylesheet" href="assets/css/feature-card.css" />
+    <link rel="stylesheet" href="assets/css/img-alter.css" />
+
+    <!-- 引入 AOS 樣式 https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
   <body>
-    <h1>Hello</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit doloremque
-      quia reiciendis explicabo odio alias voluptates aliquam rerum, doloribus
-      tenetur exercitationem eaque aut debitis molestiae earum quae, non iusto
-      voluptatum.
-    </p>
-    <script src="assets/js/script.js"></script>
+    <nav class="navbar" data-aos="fade-down">
+      <article class="navbar__container">
+        <section class="navbar__logo">
+          <i class="navbar__icon material-icons">extension </i>
+          <h2 class="navbar__title">Excepteur</h2>
+        </section>
+        <ul class="navbar__link">
+          <li><a class="link" href="#">Link</a></li>
+          <li><a class="link" href="#">Link</a></li>
+          <li><a class="link" href="#">Link</a></li>
+        </ul>
+      </article>
+    </nav>
+    <header class="header" data-aos="fade-down-left">
+      <article class="header__container">
+        <h2 class="header__title">Excepteur sint occaeuiecat cupidatat.</h2>
+        <span class="header__text"
+          >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est eopksio laborum.
+        </span>
+        <footer class="header__button">
+          <a class="btn-radius" href="#" data-aos="flip-left">BUTTON</a>
+        </footer>
+      </article>
+      <div id="particles-js" class="header__cover"></div>
+    </header>
+    <main class="main">
+      <section class="container margin-negative">
+        <h2 class="container__title" data-aos="fade-up">
+          Excepteur sint extension
+        </h2>
+        <ul class="icon-grid">
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+          <li data-aos="zoom-in">
+            <i class="icon-grid__icon material-icons">extension</i>
+            <h4 class="icon-grid__title">Excepteur sint</h4>
+            <span class="icon-grid__text"
+              >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section class="container container--skew">
+        <ul class="feature-card">
+          <li data-aos="flip-left">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+          <li data-aos="flip-left" data-aos-duration="1000">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+          <li data-aos="flip-left" data-aos-duration="1500">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+        </ul>
+      </section>
+      <section
+        class="container margin-negative"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <h2 class="container__title" data-aos="fade-up">
+          Excepteur sint extension
+        </h2>
+        <article class="flex-row">
+          <section class="flex-column">
+            <h3 class="section__title">Lorem ipsum</h3>
+            <span class="section__text">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+            <h3 class="section__title">Lorem ipsum</h3>
+            <span class="section__text">
+              Excepteur sint occaecat cupidatat non proident,Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est eopksio laborum.
+            </span>
+            <footer class="section__button">
+              <a href="#" class="btn-link">
+                BUTTON
+                <i class="material-icons">arrow_forward</i>
+              </a>
+            </footer>
+          </section>
+          <section class="flex-column flex-center">
+            <main class="img-alter">
+              <img src="assets/images/source.jpg" />
+              <blockquote class="img-alter__container flex-center">
+                <h5 class="img-alter__title">Lorem ipsum</h5>
+                <span class="img-alter__text">
+                  Excepteur sint occaecat cupidatat non proident
+                </span>
+              </blockquote>
+            </main>
+          </section>
+        </article>
+      </section>
+      <section class="container container--accent-background">
+        <h2 class="container__title container__title--white" data-aos="fade-up">
+          Excepteur sint extension
+        </h2>
+        <ul class="person-card" data-aos="fade-left">
+          <li>
+            <article class="person-card__container">
+              <aside class="person-card__avatar">
+                <img src="assets/images/img3.jpg" />
+              </aside>
+              <main class="person-card__content">
+                <header class="person-card__title">Excepteur sint</header>
+                <p class="person-card__text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est eopksio laborum.
+                </p>
+              </main>
+            </article>
+          </li>
+          <li>
+            <article class="person-card__container">
+              <aside class="person-card__avatar">
+                <img src="assets/images/avatar1.png" />
+              </aside>
+              <main class="person-card__content">
+                <header class="person-card__title">Excepteur sint</header>
+                <p class="person-card__text">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est eopksio laborum.
+                </p>
+              </main>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="container">
+        <h2 class="container__title" data-aos="fade-up">
+          Excepteur sint extension
+        </h2>
+        <ul class="feature-card">
+          <li data-aos="zoom-in-up">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+          <li data-aos="zoom-in-up" data-aos-duration="1000">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+          <li data-aos="zoom-in-up" data-aos-duration="1500">
+            <i class="feature-card__icon material-icons">sports_basketball</i>
+            <h5 class="feature-card__title">Lorem ipsum</h5>
+            <span class="feature-card__text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur.</span
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="container container--accent" data-aos="zoom-out">
+        <h2 class="container__title container__title--white" data-aos="fade-up">
+          Excepteur sint extension
+        </h2>
+        <article class="flex-row">
+          <section class="flex-column flex-center">
+            <main class="img-alter">
+              <img src="assets/images/source.jpg" />
+              <blockquote class="img-alter__container flex-center">
+                <h5 class="img-alter__title">Lorem ipsum</h5>
+                <span class="img-alter__text">
+                  Excepteur sint occaecat cupidatat non proident
+                </span>
+              </blockquote>
+            </main>
+          </section>
+          <section class="flex-column">
+            <h3 class="section__title">Lorem ipsum</h3>
+            <span class="section__text">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est eopksio laborum.
+            </span>
+            <h3 class="section__title">Lorem ipsum</h3>
+            <span class="section__text">
+              Excepteur sint occaecat cupidatat non proident,Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est eopksio laborum.
+            </span>
+            <footer class="section__button">
+              <a class="btn-radius" href="#" data-aos="flip-left">BUTTON</a>
+            </footer>
+          </section>
+        </article>
+      </section>
+    </main>
+    <footer class="footer flex-center" data-aos="zoom-out">
+      <i class="footer__icon material-icons">extension </i>
+      <h2 class="footer__title">Excepteur</h2>
+    </footer>
+
+    <!-- 引入 AOS 函式庫 https://michalsnik.github.io/aos/ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- 引入 Particles 函式庫 https://vincentgarreau.com/particles.js/#snow -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+      // 啟動網頁上的 AOS 應用
+      AOS.init();
+
+      // 啟動網頁上的 particlesJS 應用
+      particlesJS.load('particles-js', 'assets/js/particles.json', function () {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>

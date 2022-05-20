@@ -1,0 +1,17 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -1rem;
+}
+
+.flex-column {
+  flex: 1;
+  margin: 0 1rem;
+  min-width: 220px;
+}

@@ -1,0 +1,17 @@
+.footer {
+  flex-direction: column;
+  height: 16rem;
+  background-color: teal;
+  color: #ffffff;
+}
+
+.footer__icon {
+  font-size: 8rem;
+}
+
+.footer__title {
+  margin-top: 0.5rem;
+  letter-spacing: 5px;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
